@@ -5,6 +5,7 @@ import "dotenv/config";
 const envSchema = Type.Object({
 	DISCORD_TOKEN: Type.String({ minLength: 1 }),
 	DISCORD_CLIENT_ID: Type.String({ minLength: 1 }),
+	API_BASE_URL: Type.String({ default: "http://localhost:8080" }),
 	NODE_ENV: Type.Union([
 		Type.Literal("development"),
 		Type.Literal("production"),

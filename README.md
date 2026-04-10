@@ -1,0 +1,1 @@
+This project is where I will be making a simple micro-service project that has a simple UI Dashboard, an API and a discord bot that will be working together as for self learning and more
